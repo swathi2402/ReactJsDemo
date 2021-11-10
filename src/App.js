@@ -26,7 +26,7 @@ class App extends React.Component {
       this.setState({ userName: event.target.value })
       this.setState({ nameError: '' })
     } else {
-      this.setState({ nameError: 'Name is incorrect' })
+      this.setState({ nameError: 'Name is incorrect!' })
     }
   }
 
@@ -38,9 +38,24 @@ class App extends React.Component {
           <img src={logo} onClick={this.onClick} alt="The BrigdeLabz logo" />
         </div>
         <div>
-          <input onChange={this.onNameChange} />
+          <input onChange={this.onNameChange} placeholder="Enter Name"/>
           <span className="error-output">{this.state.nameError}</span>
         </div>
+        <p>At BridgeLabz, we're a techie community</p>
+        <ul>
+            <li>technologists</li>
+            <li>thinkers</li>
+            <li>builders</li>
+        </ul>
+        <p>
+            BridgeLabz Solutions has introduced an Income Sharing Agreement (ISA) model which provides an opportunity for the students to pursue 
+            training under the BridgeLabz CodinClub and pay when they score a job. The revolutionary model prevents financial constraints from 
+            hampering the skill development of learners, structuring the fee payment after gaining employment.
+        </p>
+        <p>
+            To know about us, visit <a href="https://www.bridgelabz.com/">BridgeLabz</a>
+            to learn even more about our mission i.e., <strong>Employability to all</strong>.
+        </p>
       </>
     );
   }
