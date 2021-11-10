@@ -1,0 +1,49 @@
+header, footer {
+    display: flex;
+    flex-flow: column wrap;
+    background: yellowgreen;
+    height: 20vh;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.mainContainer {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+}
+
+.mainContentItem {
+    flex: 3 0px;
+    text-align: center;
+    background-color: white;
+}
+
+nav {
+    background: #D7E8D4;
+}
+
+aside {
+    background: beige;
+}
+
+.sideBarItem {
+    flex: 1 0 0; 
+    border: 0px solid green;
+}
+
+.mainContentItem {
+    order: 1;
+}
+
+aside {
+    order: 2;
+}
+
+nav {
+    order: 3;
+}
+
+header, footer, article, nav, aside {
+    padding: 1em;
+} 

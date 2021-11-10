@@ -1,10 +1,10 @@
-img {
+.image {
   display: block;
   margin: 0 auto;
   width: 25%;
 }
 
-input {
+.in-put {
   margin-top: 10px;
   margin-left: 35%;
   padding: 3px;
@@ -17,16 +17,15 @@ input {
   margin-left: 10px;
 }
 
-html {
+.ht-ml {
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
 }
-
 html {
   background-color: #00539F;
 }
 
-body {
+.body-css {
   width: 600px;
   margin: 0 auto;
   background-color: coral;
@@ -34,20 +33,21 @@ body {
   border: 5px solid black;
 }
 
-h1 {
+.header1 {
   font-size: 60px;
   text-align: center;
 }
 
-h1 {
+.header1 {
   margin: 0;
   padding: 20px 0;
   color: #00539F;
   text-shadow: 3px 3px 1px black;
 }
 
-p, li {
+.para, .list {
   font-size: 16px;
   line-height: 2;
   letter-spacing: 1px;
 }
+
